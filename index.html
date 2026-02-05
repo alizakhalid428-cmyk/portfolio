@@ -8,7 +8,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
-
 <body>
   <!-- Header & Navigation -->
   <header>
@@ -18,6 +17,7 @@
         <ul class="nav-links">
           <li><a href="#">Home</a></li>
           <li><a href="#about">About</a></li>
+          <li><a href="#internship">Internship</a></li> <!-- added link -->
           <li><a href="#skills">Skills</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
@@ -30,10 +30,10 @@
   <section class="hero">
     <div class="container hero-content">
       <div class="hero-text">
-      <h1 class="typing">
-  <span>Graphic Designer</span><br>
-  <span>UX UI Designer</span>
-</h1>
+        <h1 class="typing">
+          <span>Graphic Designer</span><br>
+          <span>UX UI Designer</span>
+        </h1>
 
         <hr>
         <br>
@@ -73,24 +73,48 @@
     </div>
   </section>
 
- <!-- skill Section -->
- <!-- skill Section -->
-<section id="skills" class="skills-section">
-  <div class="container">
-    <h1 class="title">My Skills & Tools</h1>
-    <p class="subtitle">
-      I combine creativity with functionality to design impactful digital experiences. <br>
-      Here are the skills and tools I specialize in
-    </p>
-    
-    <div class="cards">
-      <a href="skills&tools.html" class="card">My Skills</a>
-      <a href="skills&tools.html" class="card">Tools</a>
+  <!-- Internship Section -->
+  <section id="internship" class="about">
+    <div class="container about-content">
+      <div class="about-text">
+        <h2>Internship Experience</h2>
+        <p class="intro">
+          Graphic Design Intern – <strong>Creaze Company</strong> 🎓
+        </p>
+        <p>
+          I recently completed a professional internship as a Graphic Designer at
+          Creaze Company, where I worked on social media posts, banners, and digital marketing visuals.
+        </p>
+        <div class="buttons">
+          <a href="assets/certificate/creaze-internship-certificate.jpg"
+             target="_blank"
+             class="btn btn-secondary">
+             View Certificate
+          </a>
+        </div>
+      </div>
+      <div class="about-img">
+        <img src="https://i.postimg.cc/KjTBrvms/095e87c30b924173fbc2f3e848b3fb1236790d0f-1.png"
+             alt="Internship Work">
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
-
+  <!-- Skills Section -->
+  <section id="skills" class="skills-section">
+    <div class="container">
+      <h1 class="title">My Skills & Tools</h1>
+      <p class="subtitle">
+        I combine creativity with functionality to design impactful digital experiences. <br>
+        Here are the skills and tools I specialize in
+      </p>
+      
+      <div class="cards">
+        <a href="skills&tools.html" class="card">My Skills</a>
+        <a href="skills&tools.html" class="card">Tools</a>
+      </div>
+    </div>
+  </section>
 
   <!-- Projects Section -->
   <section id="projects" class="projects">
@@ -103,15 +127,18 @@
       <!-- Category Buttons -->
       <div class="project-categories">
         <button class="category-btn active">My design</button>
-        
         <a href="cards.html">
-        <button class="category-btn">My thumbnails</button></a>
+          <button class="category-btn">My thumbnails</button>
+        </a>
         <a href="design.html">
-        <button class="category-btn">Social media design</button></a>
+          <button class="category-btn">Social media design</button>
+        </a>
         <a href="web design.html">
-        <button class="category-btn">Web design</button></a>
+          <button class="category-btn">Web design</button>
+        </a>
         <a href="poster.html">
-        <button class="category-btn">Poster design</button></a>
+          <button class="category-btn">Poster design</button>
+        </a>
       </div>
 
       <!-- Project Gallery -->
@@ -129,6 +156,7 @@
     </div>
   </section>
 
+  <!-- Contact Section -->
   <section id="contact" class="contact-section">
     <h2>Get in touch</h2>
     <p>Have a project in mind or want to collaborate? Let’s connect!</p>
@@ -147,8 +175,10 @@
     });
   </script>
   <script src="script.js"></script>
-<script src="particles.js"></script>
+  <script src="particles.js"></script>
 
 </body>
 </html>
+
+
 
