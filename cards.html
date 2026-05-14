@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Thumbnail Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Thumbnail Portfolio</title>
 
   <style>
 
@@ -16,8 +16,8 @@
     body{
       background:#0d0d0d;
       font-family:Arial, sans-serif;
-      padding:40px 20px;
       color:white;
+      padding:40px 20px;
     }
 
     h1{
@@ -37,11 +37,9 @@
     }
 
     .card{
-      position:relative;
       overflow:hidden;
       border-radius:22px;
-      background:#1b1b1b;
-
+      background:#1a1a1a;
       transition:0.4s ease;
       cursor:pointer;
 
@@ -58,38 +56,19 @@
 
     .card img{
       width:100%;
-      height:100%;
       display:block;
       object-fit:cover;
     }
 
-    .card::after{
-      content:"";
-      position:absolute;
-      inset:0;
-      background:linear-gradient(
-      to top,
-      rgba(0,0,0,0.45),
-      transparent
-      );
-
-      opacity:0;
-      transition:0.3s ease;
-    }
-
-    .card:hover::after{
-      opacity:1;
-    }
-
     @media(max-width:768px){
-
-      body{
-        padding:20px;
-      }
 
       h1{
         font-size:30px;
         margin-bottom:30px;
+      }
+
+      body{
+        padding:20px;
       }
 
     }
@@ -105,45 +84,50 @@
 
     <!-- Thumbnail 1 -->
     <div class="card">
-      <img src="https://i.postimg.cc/bwBjXzxv/feab4cf6624228c0ed9a20da63ab353955f846ad.png">
+      <img src="https://img.sanishtech.com/u/3efd50a820ae20554bbfb3b954e0fa70.jpg" alt="Thumbnail 1">
     </div>
 
     <!-- Thumbnail 2 -->
     <div class="card">
-      <img src="https://i.postimg.cc/9Q8cWPhC/70fe22fe6a50f9d737de7d80b345aa1f62410c39.png">
+      <img src="https://img.sanishtech.com/u/b1f9e783f3b07ac364bdb422edb6af68.jpg" alt="Thumbnail 2">
     </div>
 
     <!-- Thumbnail 3 -->
     <div class="card">
-      <img src="https://i.postimg.cc/L5tHRrHb/a952f47839dfe7975e47d77e38d840024dd53fe7.jpg">
+      <img src="https://img.sanishtech.com/u/ebdb2757e8c0369f87f68b7f45e52f91.jpg" alt="Thumbnail 3">
     </div>
 
     <!-- Thumbnail 4 -->
     <div class="card">
-      <img src="https://i.postimg.cc/HkBkrDQG/30931809ad52321da1ae844402be613d2126e426.png">
+      <img src="https://i.postimg.cc/bwBjXzxv/feab4cf6624228c0ed9a20da63ab353955f846ad.png" alt="Thumbnail 4">
     </div>
 
     <!-- Thumbnail 5 -->
     <div class="card">
-      <img src="https://i.postimg.cc/bJpCc5P6/moizawan-thumbnail-competitions.jpg">
+      <img src="https://i.postimg.cc/9Q8cWPhC/70fe22fe6a50f9d737de7d80b345aa1f62410c39.png" alt="Thumbnail 5">
     </div>
 
     <!-- Thumbnail 6 -->
     <div class="card">
-      <img src="https://i.postimg.cc/SK7drG9c/documentry.jpg">
+      <img src="https://i.postimg.cc/L5tHRrHb/a952f47839dfe7975e47d77e38d840024dd53fe7.jpg" alt="Thumbnail 6">
     </div>
 
     <!-- Thumbnail 7 -->
     <div class="card">
-      <img src="https://img.sanishtech.com/u/3efd50a820ae20554bbfb3b954e0fa70.jpg" alt="HIGH QUALITY">
+      <img src="https://i.postimg.cc/HkBkrDQG/30931809ad52321da1ae844402be613d2126e426.png" alt="Thumbnail 7">
     </div>
-<!-- Thumbnail 8 -->
-<div class="card">
-  <img src="https://img.sanishtech.com/u/b1f9e783f3b07ac364bdb422edb6af68.jpg" alt="Thumbnail 8">
-</div>
+
+    <!-- Thumbnail 8 -->
+    <div class="card">
+      <img src="https://i.postimg.cc/bJpCc5P6/moizawan-thumbnail-competitions.jpg" alt="Thumbnail 8">
+    </div>
+
+    <!-- Thumbnail 9 -->
+    <div class="card">
+      <img src="https://i.postimg.cc/SK7drG9c/documentry.jpg" alt="Thumbnail 9">
+    </div>
+
+  </div>
 
 </body>
-</html><!-- Thumbnail 9 -->
-<div class="card">
-  <img src="https://img.sanishtech.com/u/ebdb2757e8c0369f87f68b7f45e52f91.jpg" alt="Thumbnail 9">
-</div>
+</html>
